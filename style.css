@@ -1,25 +1,30 @@
-
 .question {
+        cursor:pointer; 
+        width: 200px;	
+        border: 15px solid green;
+        border-style: groove;
+        background: #ccffcc;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+
+.styling {
+	cursor:pointer;
 	width: 200px;
-	border: 20px solid green;
-	padding: 70px;
+	border: 15px solid blue;
+	border-style: groove;
+	background: #66ccff;
+	padding: 50px;
 	margin: 20px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 	font-weight: bold;
-	
 }
 
 .answer {
-	visibility: hidden;
-	
-}
-
-.styling {
-	width: 200px;
-	border: 20px solid green;
-	padding: 70px;
-	margin: 20px;
-	text-align: center;
-	font-size: 40px;
+	display: none;
 }
